@@ -1,0 +1,18 @@
+Umuzi Database Documentation
+The Umuzi database has a total of 5 related tables that stores data about Umuzi's customers, employees, products, payments and orders.
+
+Database tables
+1. Customers
+Stores customer data, i.e. CustomerID (Customer Number), Firstname, Lastname, Gender, Address, Phone, Email, City and Country
+
+2. Employees
+Stores Umuzi's employee data, i.e. EmployeeID (Employee Number),  Firstname, Lastname, Email and Job title
+
+3. Products
+Stores data on products offered by Umuzi, i.e. ProductID (Product Number), ProductName, Description and BuyPrice (In Rands)
+
+4. Payments
+Stores information of payments made by Customers, i.e. CustomerID (This links the payment with the customer who paid), PaymnetID (Payment Number), PaymentDate and Amount (In Rands)
+
+5. Orders
+Stores information of orders made by customers to Umuzi's products and the employee who fufilled them, i.e. OrderID (Order Number), ProductID (This links the order with the product that was ordered), PaymentID (This links the order with the payment made for the order), FulfilledByEmployeeID (This links the order to the employee who fufilled it), DateRequired, DateShipped and Status (has the order been Shipped or Not Shipped)
