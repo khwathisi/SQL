@@ -56,7 +56,7 @@ Values(Default, 'Kani', 'Matthew', 'mat@gmail.com', 'Manager'),
       (Default, 'Lesly', 'Cronje', 'LesC@gmail.com', 'Clerk'),
       (Default, 'Gideon', 'Maduku', 'm@gmail.com', 'Accountant')
 --Products
-Insert Into Products(ProductID, ProductName, [Description], BuyPrice)
+Insert Into Products(ProductID, ProductName, Description, BuyPrice)
 Values(Default, 'Harley Davidson Chopper', 'This replica features working kickstand, front suspension, gear-shift lever', 150.75),
       (Default, 'Classic Car', 'Turnable front wheels, steering function', 550.75),
       (Default, 'Sports car', 'Turnable front wheels, steering function', 700.60)
