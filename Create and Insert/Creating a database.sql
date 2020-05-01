@@ -56,10 +56,10 @@ Values(Default, 'Kani', 'Matthew', 'mat@gmail.com', 'Manager'),
       (Default, 'Lesly', 'Cronje', 'LesC@gmail.com', 'Clerk'),
       (Default, 'Gideon', 'Maduku', 'm@gmail.com', 'Accountant')
 --Products
-Insert Into Employees(EmployeeID, FirstName, LastName, Email, Jobtitle)
-Values(Default, 'Kani', 'Matthew', 'mat@gmail.com', 'Manager'),
-      (Default, 'Lesly', 'Cronje', 'LesC@gmail.com', 'Clerk'),
-      (Default, 'Gideon', 'Maduku', 'm@gmail.com', 'Accountant')
+Insert Into Products(ProductID, ProductName, Description, BuyPrice)
+Values(Default, 'Harley Davidson Chopper', 'This replica features working kickstand, front suspension, gear-shift lever', 150.75),
+      (Default, 'Classic Car', 'Turnable front wheels, steering function', 550.75),
+      (Default, 'Sports car', 'Turnable front wheels, steering function', 700.60)
 --Payments
 Insert Into Payments
 Values(1, 1, '01-09-2018', 150.75),
